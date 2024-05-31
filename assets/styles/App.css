@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
+
+:root {
+    --background: #0B0B0B;
+    --component-background: #2D2D2D;
+    --green-accent: #A3FDA1;
+    --purple-accent: #925DD0;
+    --text: #E3E3E3;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: var(--text);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.landing-container {
+    width: 100%;
+    height: 100vh;
+    padding: 4rem 10rem;
+    font-size: 2rem;
+    background-color: var(--background);
+}
+
+.landing-container header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing-container header nav h1 {
+    color: var(--green-accent);
+}
+
+.landing-container header nav .links {
+    background-color: var(--component-background);
+    padding: 2rem;
+    border-radius: 3rem;
+
+}
+
+.landing-container header nav .links a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.links {
+    font-size: 1.8rem;
+    display: flex;
+    gap: 5rem;
+}
+
